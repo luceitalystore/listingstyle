@@ -1,0 +1,90 @@
+#header {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    content: url(http://i1102.photobucket.com/albums/g458/coccocasa/LOGONEZIOGNO.png);
+}
+
+#homebutton {
+    content: url(http://i1102.photobucket.com/albums/g458/coccocasa/home_button.png);
+    width: 250px;
+    max-width: 100%;
+}
+
+#menuelement {
+    FONT-SIZE: small;
+    FONT-FAMILY: Arial, sans-serif;
+    BACKGROUND-COLOR: rgb(255, 255, 255);
+    text-decoration: none;
+    border: none;
+}
+
+#bandiera {
+    width: 41px;
+    height: 29px;
+}
+
+#body {
+    text-align: center;
+    width: 100%;
+    margin: 0px auto;
+    max-width: 900px;
+}
+
+#content{
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    padding: 5%;
+    background-image: url("http://i1102.photobucket.com/albums/g458/coccocasa/lightningB_bg.gif");
+    max-width: 900px;
+
+    /* per evitare che i link lunghi escano dal riquadro*/
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+#titolodescrizione{
+    font-size: x-large;
+}
+
+#frame {
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: gray;
+    background-color: black;
+    padding: 3%;
+    color: white;
+}
+
+@media all and (max-device-width: 600px){
+    #frame{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #content{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+#innerframe {
+    border-style: groove;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+#codice {
+    color: #a5a5a5;
+}
+
+#immaginiprodotto {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding-bottom: 10px;
+}
